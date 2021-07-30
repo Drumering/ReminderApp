@@ -217,7 +217,7 @@ class MainActivity : AppCompatActivity() {
 
         if (repeat) {
             manager.setExact(AlarmManager.RTC, futureTime.timeInMillis, pendingIntent)
-            manager.setRepeating(AlarmManager.RTC, futureTime.timeInMillis, 86400000, pendingIntent)
+            manager.setRepeating(AlarmManager.RTC, futureTime.timeInMillis, AlarmManager.INTERVAL_DAY, pendingIntent)
         } else {
             manager.setExact(AlarmManager.RTC, futureTime.timeInMillis, pendingIntent)
         }
