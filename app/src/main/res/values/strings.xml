@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyReminderApp</string>
+    <string name="content_button_add_reminder">Button Add Reminder</string>
+    <string name="reminder_icon">Reminder Icon</string>
+    <string name="reminder_time_placeholder">July 28, 2021</string>
+    <string name="reminder_description_placeholder">Reminder Description</string>
+    <string name="alert_add_new_reminder">Click the button below to add a new reminder</string>
+    <string name="insert_your_reminder_description">Insert your reminder description</string>
+    <string name="reminder_cancel">Cancel</string>
+    <string name="reminder_confirm">Confirm</string>
+    <string name="repeat">Repeat</string>
+</resources>
